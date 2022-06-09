@@ -1,0 +1,6 @@
+# frozen_string_literal: true
+
+require_relative './services/appointment/base_service'
+require_relative './services/appointment/read_data'
+require_relative './services/appointment/start'
+Appointment::Start.new.call
